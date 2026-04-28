@@ -5,7 +5,7 @@ from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field
 
 
-ExtractorErrorCode = Literal["INSUFFICIENT_TEXT"]
+ExtractorErrorCode = Literal["INSUFFICIENT_TEXT", "UPSTREAM"]
 VerifierVerdict = Literal["supported", "contested", "unsupported"]
 GraphVerdict = Literal["supported", "contested", "unsupported", "unknown"]
 GraphEdgeType = Literal["depends_on", "shares_source", "same_topic"]

@@ -1,4 +1,4 @@
-export type ExtractorErrorCode = "INSUFFICIENT_TEXT";
+export type ExtractorErrorCode = "INSUFFICIENT_TEXT" | "UPSTREAM";
 export type VerifierVerdict = "supported" | "contested" | "unsupported";
 export type GraphVerdict =
   | "supported"
