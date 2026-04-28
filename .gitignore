@@ -1,0 +1,14 @@
+﻿# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Node
+node_modules/
+.next/
+.DS_Store
+
+# Project
+fixtures/demo_cache/*.json
+!fixtures/demo_cache/.gitkeep
