@@ -10,23 +10,12 @@ if str(ROOT) not in sys.path:
 from backend.agents.extractor import extract_claims
 from shared.schemas import ClaimExtractorInput
 
-
-SHORT_ARTICLE = """
-The city council met on Tuesday evening to discuss a proposed redesign of the
-central bus depot. Officials said the project would add covered waiting areas,
-improve lighting, and repaint the exterior walls. Several residents spoke
-during public comment and raised concerns about noise and traffic near nearby
-apartments. A transit manager said the depot currently serves six routes each
-weekday and handles roughly 2,000 passenger boardings. The council did not
-vote on the proposal and scheduled a follow-up meeting for next month.
-""".strip()
-
-
 def run_harness() -> None:
+    article_path = ROOT / "fixtures" / "articles" / "article_001.txt"
     payload = ClaimExtractorInput(
-        article_id="test-article-1",
-        text=SHORT_ARTICLE,
-        source_url="https://example.com/article",
+        article_id="article-001",
+        text=article_path.read_text(encoding="utf-8"),
+        source_url="local-fixture",
     )
     result = extract_claims(payload)
     print(result.model_dump_json(indent=2))

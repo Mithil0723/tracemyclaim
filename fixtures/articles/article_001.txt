@@ -1,0 +1,25 @@
+How Artificial Intelligence Is Transforming Scientific Research
+
+Artificial intelligence is accelerating the pace of scientific discovery at a scale researchers describe as unprecedented, but experts remain divided on how transformative the technology will ultimately prove — and whether its risks are being managed responsibly.
+
+The most celebrated example is DeepMind's AlphaFold2, released in 2020, which predicted the three-dimensional structures of proteins with accuracy rivaling experimental methods. By 2022, DeepMind had used the system to predict structures for more than 200 million proteins, covering nearly every known protein in science.
+
+The breakthrough followed a longer arc of AI milestones in competitive domains. In March 2016, Google DeepMind's AlphaGo defeated world champion Go player Lee Sedol four games to one, a result many researchers had not expected to see for another decade.
+
+Recognition for foundational AI work came in 2018, when the Association for Computing Machinery awarded the Turing Award jointly to Yoshua Bengio, Geoffrey Hinton, and Yann LeCun for their contributions to deep learning.
+
+In medicine, AI-assisted diagnostics have moved from research into clinical use. The U.S. Food and Drug Administration cleared IDx-DR, an autonomous AI system for detecting diabetic retinopathy, in April 2018 — the first such authorization for a device that makes a diagnostic decision without requiring a clinician to interpret the image.
+
+More recently, OpenAI released GPT-4 in March 2023, a large language model the company described as demonstrating performance at or near the 90th percentile on a range of standardized professional and academic examinations.
+
+The productivity gains from these systems have been significant. A 2024 meta-analysis examining 500 peer-reviewed studies found that research teams using AI-assisted tools published results an average of 40 percent faster than teams relying on traditional methods alone.
+
+AI systems have also shown promise in medical imaging. Several studies published between 2019 and 2023 found that deep learning models matched or exceeded the diagnostic accuracy of board-certified radiologists in detecting early-stage lung cancer from CT scans.
+
+The economic implications remain disputed. A 2020 World Economic Forum report estimated that automation and AI would displace 85 million jobs globally by 2025, while simultaneously creating 97 million new roles. Critics have argued that both figures significantly overstated the speed of workforce disruption.
+
+Progress on large language models has raised deeper questions about the nature of machine intelligence. Researchers at leading AI laboratories have argued publicly that systems like GPT-4 display emergent reasoning capabilities that go beyond statistical pattern matching, a claim disputed by a significant portion of the cognitive science and linguistics research community.
+
+In 2023, China surpassed the United States in AI research output for the first time, producing 68 percent more peer-reviewed AI publications than American institutions across all major journals.
+
+The governance of these systems has not kept pace with their deployment. As of early 2024, no binding international treaty on AI development existed, and regulatory frameworks across jurisdictions remained fragmented, leaving researchers and institutions to navigate a patchwork of voluntary guidelines and sector-specific rules.
